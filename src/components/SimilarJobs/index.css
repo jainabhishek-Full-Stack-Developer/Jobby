@@ -1,0 +1,74 @@
+.similarJobLiContainer {
+  color: #ffffff;
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 28px;
+  font-family: 'Roboto';
+  width: 30%;
+}
+.imgJobTitleContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.titleJobRatingContainer {
+  margin-top: 0;
+}
+.companyJobLogo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.titleJobHeading {
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.starJobRatingContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+.starIcon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.ratingJobText {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 5px;
+}
+.locationJobDetailsCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.locationJonIconCon {
+  display: flex;
+  flex-direction: row;
+}
+.locationIcon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.location {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.jobType {
+  margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  .similarJobLiContainer {
+    width: 100%;
+  }
+  .titleJobHeading {
+    font-size: 20px;
+  }
+}

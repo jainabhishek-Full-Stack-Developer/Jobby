@@ -1,0 +1,181 @@
+.allJobsContainer {
+  background-color: #000000;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.sideBarContainer {
+  width: 25%;
+}
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 25px;
+  width: 100%;
+  height: 35vh;
+  border-radius: 25px;
+}
+.profileIcon {
+  color: blue;
+  font-size: 25px;
+}
+.profileName {
+  color: #505068;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.profileDescription {
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.hrLine {
+  border: 2px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.checkBoxesContainer {
+  list-style: none;
+}
+.liContainer {
+  margin-bottom: 18px;
+}
+.input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.label {
+  color: #ffffff;
+  font-size: 20px;
+}
+.radio {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+.failureButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35vh;
+}
+.failureImg {
+  width: 90%;
+  height: 350px;
+}
+.failureButton {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.jobsContainer {
+  width: 72%;
+  height: 100%;
+}
+.jobsFailureButonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.failureHeading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.failureParagraph {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.searchInput {
+  background-color: transparent;
+  border: 2px solid grey;
+  border-right: navajowhite;
+  height: 40px;
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.searchInput:focus {
+  outline: 0.2px solid grey;
+}
+.searchButton {
+  height: 42px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 53px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border: 0;
+  background-color: #202020;
+}
+.searchIcon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.noJobsContainer {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.noJobsImg {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .allJobsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .sideBarContainer {
+    width: 100%;
+  }
+  .searchInput {
+    width: 80%;
+  }
+  .jobsContainer {
+    width: 100%;
+  }
+  .ulJobItemContainer {
+    width: 100%;
+    padding: 0;
+  }
+  .failureImg {
+    width: 90%;
+    height: 90%;
+  }
+}
